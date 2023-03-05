@@ -8,7 +8,7 @@ const fr = {
     title: "Bonjour, je suis Paula.",
     profession: "Architecte",
     im: "Je suis une",
-    p: "diplômé de l'Université nationale de La Plata. Actuellement basé en France, cherchant à connaître et à participer à l'architecture du monde.",
+    p: "diplômé de l'Université nationale de La Plata. Actuellement basée en France, cherchant à connaître et à participer à l'architecture du monde.",
     projects: "Projets",
   },
   aboutSection: {
