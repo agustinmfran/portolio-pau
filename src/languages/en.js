@@ -5,7 +5,8 @@ const en = {
     projects: "Projects",
   },
   infoSection: {
-    title: "Hi, I'm Agustín.",
+    title: "Hi, I'm Paula.",
+    profession: "Architect",
     im: "I'm a",
     p: "based in Toulouse, France. Working towards creating a better code that makes life easier and more meaningful.",
     projects: "Projects",

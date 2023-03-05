@@ -6,7 +6,7 @@ export default function PageLayout({ children }) {
   return (
     <>
       <Head>
-        <title>Agustín Franco</title>
+        <title>Paula Gil</title>
         <meta name="description" content="Agustín Franco Portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

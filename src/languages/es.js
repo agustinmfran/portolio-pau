@@ -5,9 +5,10 @@ const es = {
     projects: "Proyectos",
   },
   infoSection: {
-    title: "Hola, soy Agustín.",
+    title: "Hola, soy Paula.",
+    profession: "Arquitecta",
     im: "Soy",
-    p: "establecido en Toulouse, Francia. Trabajando para crear un mejor código que haga la vida más fácil y significativa.",
+    p: "recibida en la Universidad Nacional de La Plata. Actualmente basada en Francia, buscando conocer y participar de la arquitectura del mundo.",
     projects: "Proyectos",
   },
   aboutSection: {

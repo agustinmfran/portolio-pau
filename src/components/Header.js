@@ -25,8 +25,8 @@ export default function Header() {
               duration={500}
             >
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold border-b-2 border-teal-500">
-                  Agustín Franco
+                <h2 className="text-2xl font-bold border-b-2 border-fuchsia-700">
+                  Paula Gil
                 </h2>
               </div>
             </Rslink>
@@ -50,7 +50,7 @@ export default function Header() {
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <Rslink
                 to="home"
-                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:transition duration-300 cursor-pointer"
+                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-fuchsia-700 hover:transition duration-300 cursor-pointer"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -62,7 +62,7 @@ export default function Header() {
               </Rslink>
               <Rslink
                 to="about"
-                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:transition duration-300 cursor-pointer"
+                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-fuchsia-700 hover:transition duration-300 cursor-pointer"
                 activeClass="active"
                 spy={true}
                 smooth={true}
@@ -74,7 +74,7 @@ export default function Header() {
               </Rslink>
               <Rslink
                 to="projects"
-                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-teal-500 hover:transition duration-300 cursor-pointer"
+                className="block lg:inline-block text-neutral-900  hover:text-lg hover:text-fuchsia-700 hover:transition duration-300 cursor-pointer"
                 activeClass="active"
                 spy={true}
                 smooth={true}

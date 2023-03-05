@@ -14,7 +14,7 @@ const InfoSection = () => {
         <div className="md:pl-16 md:w-1/2 md:mt-2 md:justify-center lg:pl-36">
           <Image
             className="rounded-full shadow-2xl"
-            src="/perfil.jpg"
+            src="/perfil.jpeg"
             alt="me"
             width={300}
             height={300}
@@ -26,14 +26,14 @@ const InfoSection = () => {
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             {lang.im}{" "}
-            <span className="font-semibold text-teal-600">
-              Fullstack web Developer
+            <span className="font-semibold text-fuchsia-700">
+              {lang.profession}
             </span>{" "}
             {lang.p}
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-fuchsia-700 rounded shadow hover:bg-fuchsia-800 cursor-pointer"
             spy={true}
             smooth={true}
             offset={-100}

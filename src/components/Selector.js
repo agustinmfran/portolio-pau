@@ -8,11 +8,12 @@ function Selector() {
   return (
     <select
       onChange={handleChange}
-      className="border-2 rounded hover:text-teal-500 hover:border-teal-500 cursor-pointer"
+      className="border-2 rounded hover:text-fuchsia-700 hover:border-fuchsia-700 cursor-pointer"
     >
-      <option value="en" defaultValue>
-        en
+      <option value="fr" defaultValue>
+        fr
       </option>
+      <option value="en">en</option>
       <option value="es">es</option>
     </select>
   );

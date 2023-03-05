@@ -21,23 +21,12 @@ const Footer = () => {
             offset={-100}
             duration={500}
           >
-            © 2023 Agustín Franco
+            © 2023 Paula Gil
           </Link>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
-            href="https://github.com/agustinmfran"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 "
-              size={30}
-            />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/agustinmfran/"
+            href="https://www.linkedin.com/in/paula-gil-0b2a4b162/"
             rel="noreferrer"
             target="_blank"
           >
@@ -48,18 +37,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.agustinmfran.com.ar"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiOutlineLink
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500"
-              size={30}
-            />
-          </a>
-
-          <a
-            href="mailto:agustinmfran@gmail.com"
+            href="mailto:pauligilcas@gmail.com"
             rel="noreferrer"
             target="_blank"
           >
@@ -71,7 +49,7 @@ const Footer = () => {
 
           <a
             href="https://drive.google.com/file/d/1UJsYlt1V1nuibHrj8ziNiiLuGuzc3oUB/view?usp=share_link"
-            download="Agustin Franco CV.pdf"
+            download="Paula Gil CV.pdf"
             rel="noreferrer"
             target="_blank"
           >
