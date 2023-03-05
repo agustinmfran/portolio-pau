@@ -18,7 +18,7 @@ const AboutSection = () => {
   const lang = locale === "es" ? es.aboutSection : en.aboutSection;
   return (
     <section id="about">
-      <div className="py-12 pb-12 md:pt-16 md:pb-48">
+      <div className="py-12 pb-12 md:pt-16 md:pb-24">
         <h1 className="text-center font-bold text-4xl">
           {lang.title}{" "}
           <hr className="w-6 h-1 mx-auto my-4 bg-fuchsia-700 border-0 rounded" />

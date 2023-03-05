@@ -1,8 +1,6 @@
 import { Link } from "react-scroll/modules";
 import {
-  AiOutlineGithub,
   AiOutlineLinkedin,
-  AiOutlineLink,
   AiOutlineMail,
   AiOutlineCloudDownload,
 } from "react-icons/ai";
@@ -48,7 +46,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1UJsYlt1V1nuibHrj8ziNiiLuGuzc3oUB/view?usp=share_link"
+            href="https://drive.google.com/file/d/1P6Kte3tJA5CSsMjjdy9W-OGkeQuYuP7X/view?usp=share_link"
             download="Paula Gil CV.pdf"
             rel="noreferrer"
             target="_blank"
