@@ -2,10 +2,20 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import es from "../languages/es";
 import en from "../languages/en";
+import fr from "../languages/fr";
 
 const ProjectsSection = () => {
   const { locale } = useRouter();
-  const lang = locale === "es" ? es.projectsSection : en.projectsSection;
+  const lang = () => {
+    switch (locale) {
+      case "es":
+        return es.projectsSection;
+      case "fr":
+        return fr.projectsSection;
+      default:
+        return en.projectsSection;
+    }
+  };
 
   return (
     <section id="projects">
@@ -14,7 +24,7 @@ const ProjectsSection = () => {
           href="https://issuu.com/arqpaulagil/docs/brochure.pptx"
           target="_blank"
         >
-          {lang.title}{" "}
+          {lang().title}{" "}
         </Link>
         <hr className="w-6 h-1 mx-auto my-4 bg-fuchsia-700 border-0 rounded" />
       </h1>

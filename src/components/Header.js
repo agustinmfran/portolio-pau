@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import es from "../languages/es";
 import en from "../languages/en";
+import fr from "../languages/fr";
 import Selector from "./Selector";
 import { Link as Rslink } from "react-scroll/modules";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
@@ -10,7 +11,16 @@ import { IoMdMenu, IoMdClose } from "react-icons/io";
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
   const { locale } = useRouter();
-  const lang = locale === "es" ? es.header : en.header;
+  const lang = () => {
+    switch (locale) {
+      case "es":
+        return es.header;
+      case "fr":
+        return fr.header;
+      default:
+        return en.header;
+    }
+  };
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white ">
       <div className="justify-between md:items-center md:flex">
@@ -58,7 +68,7 @@ export default function Header() {
                 duration={500}
                 onClick={() => setNavbar(!navbar)}
               >
-                {lang.home}
+                {lang().home}
               </Rslink>
               <Rslink
                 to="about"
@@ -70,7 +80,7 @@ export default function Header() {
                 duration={500}
                 onClick={() => setNavbar(!navbar)}
               >
-                {lang.about}
+                {lang().about}
               </Rslink>
               <Rslink
                 to="projects"
@@ -82,7 +92,7 @@ export default function Header() {
                 duration={500}
                 onClick={() => setNavbar(!navbar)}
               >
-                {lang.projects}
+                {lang().projects}
               </Rslink>
               <Selector />
             </div>

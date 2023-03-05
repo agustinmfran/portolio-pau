@@ -14,37 +14,16 @@ const es = {
   aboutSection: {
     title: "Sobre mí",
     title2: "Conoceme un poco más",
-    p1: "Hola, mi nombre es Agustín y soy un Fullstack web Developer ",
-    span1: "ambicioso",
-    span2: " motivado",
-    and: "y",
-    span3: " proactivo",
-    p2: ". Viviendo actualmente en Toulouse, Francia.",
-    p3: "Me gradué en Digital House Coding School, Buenos Aires, en 2020. He estado trabajando en proyectos personales y freelance desde entonces, utilizando tecnologías que me resultan interesantes como: Node, JavaScript, React & NextJS. Tengo nivel de inglés B2 upper intermediate y español nativo.",
-    p4: "Tengo una amplia gama de hobbies y pasiones que me mantienen ocupado. Desde deportes, jugar videojuegos, viajar, hasta escuchar música y DJing también. Siempre buscando nuevas experiencias. Me encanta mantenerme comprometido y aprender cosas nuevas.",
-    p5: "Creo que nunca deberías",
-    span4: "dejar de crecer",
-    p6: "y eso es lo que me esfuerzo por hacer. Tengo pasión por latecnología y el deseo de superar siempre los límites de lo posible. Me entusiasma ver adónde me lleva mi carrera y estoy siempre abierto a nuevas oportunidades.",
+    p1: "Mi nombre es Paula Gil, soy argentina. Me gradué de la Facultad de Arquitectura y Urbanismo de la UNLP en el año 2016. Desde ese momento trabajé en varias áreas, buscando lo que me apasione, pese a la pésima situación económica del país. Como dibujante en estudios, y con algunos pequeños proyectos propios.",
+    p2: "Me interesa mucho el arte, siempre me gustó dibujar, pero también la expresión corporal asociada al deporte; creo fuertemente en los hobbies que nos ayudan a cultivar la creatividad, la mente y el cuerpo. Siempre curiosa y buscando despertar nuevas habilidades.",
     skills: "Habilidades",
+    languages: "Idiomas",
+    esp: "Español",
+    eng: "Inglés",
+    fr: "Francés",
   },
   projectsSection: {
     title: "Proyectos",
-    pokeapi: {
-      description:
-        "Un proyecto simple para consumir la pokeapi y mostrar los pokemones, hecho usando React y Tailwind.",
-    },
-    biblo: {
-      description:
-        "Proyecto ecommerce hecho usando Node, Express, JS, Tailwind y MySQL. Tienda de libros con user authentication, carro, checkout y admin panel.",
-    },
-    moviefinder: {
-      description:
-        "Simple buscador de peliculas. Trae data y muestra los detalles de las peliculas populares. Hecho con NextJS, Tailwind y TMDB API.",
-    },
-  },
-  bibloSection: {
-    description:
-      "Tienda ecommerce de libros hecha usando Node, Express, JavaScript, Tailwind y base de datos MySQL. Almacena usuarios, productos, compras, carrito de compras y checkout. Autenticación de usuario, panel de usuario y cookies de sesión.",
   },
 };
 

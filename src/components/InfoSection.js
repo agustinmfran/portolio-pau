@@ -2,12 +2,22 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import es from "../languages/es";
 import en from "../languages/en";
+import fr from "../languages/fr";
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
 
 const InfoSection = () => {
   const { locale } = useRouter();
-  const lang = locale === "es" ? es.infoSection : en.infoSection;
+  const lang = () => {
+    switch (locale) {
+      case "es":
+        return es.infoSection;
+      case "fr":
+        return fr.infoSection;
+      default:
+        return en.infoSection;
+    }
+  };
   return (
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-20 md:flex-row md:space-x-4 md:text-left md:py-24">
@@ -22,14 +32,14 @@ const InfoSection = () => {
         </div>
         <div className="md:mt-2 md:w-3/5 md:pr-12">
           <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">
-            {lang.title}
+            {lang().title}
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            {lang.im}{" "}
+            {lang().im}{" "}
             <span className="font-semibold text-fuchsia-700">
-              {lang.profession}
+              {lang().profession}
             </span>{" "}
-            {lang.p}
+            {lang().p}
           </p>
           <Link
             to="projects"
@@ -39,7 +49,7 @@ const InfoSection = () => {
             offset={-100}
             duration={500}
           >
-            {lang.projects}
+            {lang().projects}
           </Link>
         </div>
       </div>
