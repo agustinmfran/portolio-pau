@@ -24,6 +24,21 @@ const fr = {
   },
   projectsSection: {
     title: "Projets",
+    projects: {
+      concurso: {
+        title: "Concours de conception préliminaire CAPBA8",
+      },
+    },
+  },
+  projectsPage: {
+    concurso: {
+      title:
+        "Concours de conception préliminaire du district pour l'expansion de la délégation d'Olavarría du CAPBA - District 8",
+      span1: "Le concept",
+      p1: "Le bâtiment se présente comme une série de volumes articulés et sobres, avec un mélange de matérialité et une peau de verre qui renforce la transparence et synthétise clairement les fonctions de l'institution et sa proposition pour la communauté locale. La forme du bâtiment révèle la position d'un grand toit incurvé, qui s'intègre comme une aile protectrice et unifie le parti architectural. Cette toiture dessine un profil urbain attrayant et symbolique, car elle renvoie à l'image de la montagne (cœur productif de la ville) et est complétée par une façade vitrée (qui met en valeur la double hauteur de l'entrée et laisse entrevoir le projet Sum).",
+      span2: "Les espaces",
+      p2: "Une cour publique/institutionnelle résout l'accès au bâtiment, contenu dans un grand espace semi-couvert qui marque la continuité (sans barrières à la circulation depuis la voie publique) et se prolonge par une rue intérieure semi-publique (via une rampe d'accès). Celle-ci permet d'accéder aux différents secteurs (zone administrative et accès à la Somme à l'étage), en surmontant les inégalités du terrain (+0,77) et en permettant également l'accès aux personnes à mobilité réduite (avec l'option d'un ascenseur pour l'accès à l'étage). Cette continuité depuis le trottoir, en tant que 'rue piétonne intérieure', nous conduira à la zone privée et de travail de l'école, ou nous permettra de poursuivre le parcours pour atteindre une zone de réunion et de rencontre semi-privée (Somme à l'étage supérieur).",
+    },
   },
 };
 

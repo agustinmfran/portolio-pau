@@ -1,8 +1,10 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Image from "next/image";
 import es from "../languages/es";
 import en from "../languages/en";
 import fr from "../languages/fr";
+import { BsArrowUpRightSquare } from "react-icons/bs";
 
 const ProjectsSection = () => {
   const { locale } = useRouter();
@@ -16,6 +18,14 @@ const ProjectsSection = () => {
         return en.projectsSection;
     }
   };
+
+  const projects = [
+    {
+      name: lang().projects.concurso.title,
+      image: "/miniatures/mini-concurso.jpg",
+      link: "/projects/concurso",
+    },
+  ];
 
   return (
     <section id="projects">
@@ -34,6 +44,40 @@ const ProjectsSection = () => {
           width={960}
           height={569}
         ></iframe>
+      </div>
+      <div className="flex flex-col space-y-28 md:pt-12">
+        {projects.map((project) => {
+          return (
+            <div key={project.name}>
+              <div className="flex flex-col md:flex-row md:space-x-12">
+                <div className="mt-8 md:w-1/2">
+                  <Link href={project.link} target="_blank">
+                    <Image
+                      src={project.image}
+                      alt="project-image"
+                      width={1000}
+                      height={1000}
+                      className="rounded-xl shadow-xl hover:opacity-70"
+                    />
+                  </Link>
+                </div>
+                <div className="mt-12 md:w-1/2">
+                  <h1 className="text-4xl font-bold md-6 pb-4">
+                    {project.name}
+                  </h1>
+                  <div className="flex flex-row align-bottom space-x-4">
+                    <Link href={project.link} target="_blank">
+                      <BsArrowUpRightSquare
+                        size={30}
+                        className="hover:-translate-y-1 transition-transform cursor-pointer"
+                      />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

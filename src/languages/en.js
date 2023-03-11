@@ -24,6 +24,21 @@ const en = {
   },
   projectsSection: {
     title: "Projects",
+    projects: {
+      concurso: {
+        title: "District Preliminary Design Competition CAPBA8",
+      },
+    },
+  },
+  projectsPage: {
+    concurso: {
+      title:
+        "District Preliminary Design Competition for the Expansion of the Expansion of the Olavarría Delegation of the CAPBA - District 8",
+      span1: "Concept",
+      p1: "The building is presented as a series of articulated, sober volumes, with a mixture of materiality and glass skin that enhances transparency and clearly synthesizes the functions of the Institution and its proposal to the local community. The shape of the building evidences the position of a large curved roof, integrating as a protective wing and unifying the architectural party. It is a roof that draws an attractive and symbolic urban profile, as it refers to the mountain image (productive heart of the city) and is complemented by a glazed façade (which enhances the double height at the entrance and gives a glimpse of the proposed Sum.",
+      span2: "Spaces",
+      p2: 'A public/institutional courtyard resolves the access to the building, contained in a large semi-covered space that marks the continuity (without barriers to circulation from the public road) and extends into a semi-public interior street (through an access ramp). This allows access to the different sectors (administrative area and access to the Sum on the upper floor), overcoming the unevenness of the terrain (+0.77) and also allowing access to people with reduced mobility (with the option of an elevator for access to the upper floor). This continuity from the sidewalk, as an "interior pedestrian street", will lead us to the private and work area of the school, or will allow us to continue the route to reach a semi-private meeting and gathering area (Sum upstairs).',
+    },
   },
 };
 
