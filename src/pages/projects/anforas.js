@@ -7,18 +7,29 @@ import fr from "../../languages/fr";
 import HeaderProjects from "@/components/HeaderProjects";
 import FooterProjects from "@/components/FooterProjects";
 
-function Concurso() {
+function Anforas() {
   const { locale } = useRouter();
   const lang = () => {
     switch (locale) {
       case "es":
-        return es.projectsPage.concurso;
+        return es.projectsPage.anforas;
       case "fr":
-        return fr.projectsPage.concurso;
+        return fr.projectsPage.anforas;
       default:
-        return en.projectsPage.concurso;
+        return en.projectsPage.anforas;
     }
   };
+  const images = [
+    "/projects/anforas/1.jpg",
+    "/projects/anforas/2.jpg",
+    "/projects/anforas/4.jpg",
+    "/projects/anforas/5.jpg",
+    "/projects/anforas/6.jpeg",
+    "/projects/anforas/7.jpeg",
+    "/projects/anforas/8.jpeg",
+    "/projects/anforas/9.jpeg",
+    "/projects/anforas/10.jpeg",
+  ];
   return (
     <>
       <Head>
@@ -33,20 +44,19 @@ function Concurso() {
           <h1 className="text-center font-bold text-5xl mb-8 border-b-4 border-fuchsia-700">
             {lang().title}
           </h1>
-          <p className="text-lg pb-8">
-            <span className="text-fuchsia-700 font-bold">{lang().span1}</span>
-            <br />
-            {lang().p1} <br />
-            <span className="text-fuchsia-700 font-bold">{lang().span2}</span>
-            <br /> {lang().p2}
-          </p>
-          <Image
-            className="border-2 border-fuchsia-700 shadow-lg rounded-lg"
-            src="/projects/concurso/concurso.jpg"
-            alt="concurso"
-            width={1000}
-            height={1000}
-          />
+          <p className="text-lg pb-8">{lang().p1}</p>
+          {images.map((image, index) => (
+            <div key={index}>
+              <hr className="w-6 h-1 mx-auto my-4 bg-fuchsia-700 border-0 rounded" />
+              <Image
+                className="border-2 border-fuchsia-700 shadow-lg rounded-lg"
+                src={image}
+                alt="anforas"
+                width={1000}
+                height={1000}
+              />
+            </div>
+          ))}
         </div>
       </main>
       <FooterProjects />
@@ -54,4 +64,4 @@ function Concurso() {
   );
 }
 
-export default Concurso;
+export default Anforas;

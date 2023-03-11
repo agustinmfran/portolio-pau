@@ -25,6 +25,11 @@ const ProjectsSection = () => {
       image: "/miniatures/mini-concurso.jpg",
       link: "/projects/concurso",
     },
+    {
+      name: lang().projects.anforas.title,
+      image: "/miniatures/mini-anforas.png",
+      link: "/projects/anforas",
+    },
   ];
 
   return (
