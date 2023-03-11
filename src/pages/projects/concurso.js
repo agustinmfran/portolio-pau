@@ -21,11 +21,6 @@ function Biblo() {
   };
   return (
     <>
-      <Head>
-        <title>Concurso</title>
-        <meta name="description" content="Concurso" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <HeaderProjects />
       <main
         id="project"
