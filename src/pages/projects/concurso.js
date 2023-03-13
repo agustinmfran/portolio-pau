@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import Link from "next/link";
 import es from "../../languages/es";
 import en from "../../languages/en";
 import fr from "../../languages/fr";
@@ -40,13 +41,18 @@ function Concurso() {
             <span className="text-fuchsia-700 font-bold">{lang().span2}</span>
             <br /> {lang().p2}
           </p>
-          <Image
-            className="border-2 border-fuchsia-700 shadow-lg rounded-lg"
-            src="/projects/concurso/concurso.jpg"
-            alt="concurso"
-            width={1000}
-            height={1000}
-          />
+          <Link
+            href="https://www.dropbox.com/s/jet80agtmtq8cxm/LAMINA.jpg?dl=0"
+            target="_blank"
+          >
+            <Image
+              className="border-2 border-fuchsia-700 shadow-lg rounded-lg"
+              src="/projects/concurso/concurso.jpg"
+              alt="concurso"
+              width={1000}
+              height={1000}
+            />
+          </Link>
         </div>
       </main>
       <FooterProjects />
