@@ -31,6 +31,9 @@ const es = {
       anforas: {
         title: 'Fábrica de aceite de oliva "Ánforas de Atenea"',
       },
+      sierras: {
+        title: "Anteproyecto locales comerciales en Sierras Bayas",
+      },
     },
   },
   projectsPage: {
@@ -46,6 +49,12 @@ const es = {
       title:
         "Fábrica de aceite de oliva 'Ánforas de Atenea', San Rafael, Mendoza, Argentina.",
       p1: "Idea y croquis para la primera fase de construcción del galpón, que albergaría lugar de fábrica, carga y descarga y depósito de barriles de aceite.",
+    },
+    sierras: {
+      title:
+        "Anteproyecto locales comerciales en Sierras Bayas, Provincia de Buenos Aires, Argentina.",
+      description:
+        "Idea y dibujo de 3 locales comerciales con servicios propios a cada uno, con vista a la calle principal de la ciudad. Se tuvo en cuenta la orientación, los vecinos y la mejor distribución y dimensiones para aprovechar al 100% el presupuesto con el que contaba el cliente.",
     },
   },
 };

@@ -31,6 +31,9 @@ const fr = {
       anforas: {
         title: "Usine d'huile d'olive 'Ánforas de Atenea'",
       },
+      sierras: {
+        title: "Conception préliminaire de locaux commerciaux à Sierras Bayas",
+      },
     },
   },
   projectsPage: {
@@ -46,6 +49,12 @@ const fr = {
       title:
         "Usine d'huile d'olive 'Ánforas de Atenea', San Rafael, Mendoza, Argentine.",
       p1: "Idée et croquis pour la première phase de construction du hangar, qui abriterait l'usine, le chargement et le déchargement et le stockage des barils d'huile.",
+    },
+    sierras: {
+      title:
+        "Conception préliminaire de locaux commerciaux à Sierras Bayas, province de Buenos Aires, Argentine.",
+      description:
+        "Idée et dessin de 3 locaux commerciaux avec leurs propres services, donnant sur la rue principale de la ville. Nous avons pris en compte l'orientation, les voisins et la meilleure distribution et dimensions pour utiliser à 100% le budget du client.",
     },
   },
 };

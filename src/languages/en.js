@@ -31,6 +31,9 @@ const en = {
       anforas: {
         title: 'Olive oil factory "Ánforas de Atenea"',
       },
+      sierras: {
+        title: "Preliminary design of commercial premises in Sierras Bayas",
+      },
     },
   },
   projectsPage: {
@@ -46,6 +49,12 @@ const en = {
       title:
         "Olive oil factory 'Ánforas de Atenea', San Rafael, Mendoza, Argentina.",
       p1: "Idea and sketch for the first phase of construction of the shed, which would house factory site, loading and unloading and storage of oil barrels.",
+    },
+    sierras: {
+      title:
+        "Preliminary design of commercial premises in Sierras Bayas, Province of Buenos Aires, Argentina.",
+      description:
+        "Idea and drawing of 3 commercial premises with their own services, overlooking the main street of the city. We took into account the orientation, the neighbors and the best distribution and dimensions to take 100% advantage of the client's budget.",
     },
   },
 };

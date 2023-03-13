@@ -30,6 +30,11 @@ const ProjectsSection = () => {
       image: "/miniatures/mini-anforas.png",
       link: "/projects/anforas",
     },
+    {
+      name: lang().projects.sierras.title,
+      image: "/miniatures/mini-sierras.jpg",
+      link: "/projects/sierras",
+    },
   ];
 
   return (
@@ -51,9 +56,9 @@ const ProjectsSection = () => {
         ></iframe>
       </div>
       <div className="flex flex-col space-y-28 md:pt-12">
-        {projects.map((project) => {
+        {projects.map((project, index) => {
           return (
-            <div key={project.name}>
+            <div key={index}>
               <div className="flex flex-col md:flex-row md:space-x-12">
                 <div className="mt-8 md:w-1/2">
                   <Link href={project.link} target="_blank">
