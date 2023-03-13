@@ -39,7 +39,7 @@ const en = {
   projectsPage: {
     concurso: {
       title:
-        "District Preliminary Design Competition for the Expansion of the Expansion of the Olavarría Delegation of the CAPBA - District 8",
+        "2020 - District Preliminary Design Competition for the Expansion of the Expansion of the Olavarría Delegation of the CAPBA - District 8",
       span1: "Concept",
       p1: "The building is presented as a series of articulated, sober volumes, with a mixture of materiality and glass skin that enhances transparency and clearly synthesizes the functions of the Institution and its proposal to the local community. The shape of the building evidences the position of a large curved roof, integrating as a protective wing and unifying the architectural party. It is a roof that draws an attractive and symbolic urban profile, as it refers to the mountain image (productive heart of the city) and is complemented by a glazed façade (which enhances the double height at the entrance and gives a glimpse of the proposed Sum.",
       span2: "Spaces",
@@ -47,14 +47,13 @@ const en = {
     },
     anforas: {
       title:
-        "Olive oil factory 'Ánforas de Atenea', San Rafael, Mendoza, Argentina.",
+        "2019 - Olive oil factory 'Ánforas de Atenea', San Rafael, Mendoza, Argentina.",
       p1: "Idea and sketch for the first phase of construction of the shed, which would house factory site, loading and unloading and storage of oil barrels.",
     },
     sierras: {
       title:
-        "Preliminary design of commercial premises in Sierras Bayas, Province of Buenos Aires, Argentina.",
-      description:
-        "Idea and drawing of 3 commercial premises with their own services, overlooking the main street of the city. We took into account the orientation, the neighbors and the best distribution and dimensions to take 100% advantage of the client's budget.",
+        "2016 - Preliminary design of commercial premises in Sierras Bayas, Province of Buenos Aires, Argentina.",
+      p1: "Idea and drawing of 3 commercial premises with their own services, overlooking the main street of the city. We took into account the orientation, the neighbors and the best distribution and dimensions to take 100% advantage of the client's budget.",
     },
   },
 };

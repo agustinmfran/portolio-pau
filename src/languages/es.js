@@ -39,7 +39,7 @@ const es = {
   projectsPage: {
     concurso: {
       title:
-        "Concurso de Anteproyecto de Distrito para la Ampliación de la Delegación de Olavarría del CAPBA - Distrito 8",
+        "2020 - Concurso de Anteproyecto de Distrito para la Ampliación de la Delegación de Olavarría del CAPBA - Distrito 8",
       span1: "Concepto",
       p1: "El edificio se presenta como una serie de volúmenes articulados, sobrios, con una mezcla de materialidad y piel de vidrio que potencia la transparencia y sintetiza claramente las funciones de la Institución y su propuesta a la comunidad local. La forma del edificio evidencia la posición de un gran techo curvo, integrando como una ala protectora y unificando la parte arquitectónica. Es un techo que dibuja un perfil urbano atractivo y simbólico, ya que se refiere a la imagen de la montaña (corazón productivo de la ciudad) y se complementa con una fachada vidriada (que potencia la doble altura en la entrada y da un vistazo a la Sum propuesta.",
       span2: "Espacios",
@@ -47,14 +47,13 @@ const es = {
     },
     anforas: {
       title:
-        "Fábrica de aceite de oliva 'Ánforas de Atenea', San Rafael, Mendoza, Argentina.",
+        "2019 - Fábrica de aceite de oliva 'Ánforas de Atenea', San Rafael, Mendoza, Argentina.",
       p1: "Idea y croquis para la primera fase de construcción del galpón, que albergaría lugar de fábrica, carga y descarga y depósito de barriles de aceite.",
     },
     sierras: {
       title:
-        "Anteproyecto locales comerciales en Sierras Bayas, Provincia de Buenos Aires, Argentina.",
-      description:
-        "Idea y dibujo de 3 locales comerciales con servicios propios a cada uno, con vista a la calle principal de la ciudad. Se tuvo en cuenta la orientación, los vecinos y la mejor distribución y dimensiones para aprovechar al 100% el presupuesto con el que contaba el cliente.",
+        "2016 - Anteproyecto locales comerciales en Sierras Bayas, Provincia de Buenos Aires, Argentina.",
+      p1: "Idea y dibujo de 3 locales comerciales con servicios propios a cada uno, con vista a la calle principal de la ciudad. Se tuvo en cuenta la orientación, los vecinos y la mejor distribución y dimensiones para aprovechar al 100% el presupuesto con el que contaba el cliente.",
     },
   },
 };

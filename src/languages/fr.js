@@ -39,7 +39,7 @@ const fr = {
   projectsPage: {
     concurso: {
       title:
-        "Concours de conception préliminaire du district pour l'expansion de la délégation d'Olavarría du CAPBA - District 8",
+        "2020 - Concours de conception préliminaire du district pour l'expansion de la délégation d'Olavarría du CAPBA - District 8",
       span1: "Le concept",
       p1: "Le bâtiment se présente comme une série de volumes articulés et sobres, avec un mélange de matérialité et une peau de verre qui renforce la transparence et synthétise clairement les fonctions de l'institution et sa proposition pour la communauté locale. La forme du bâtiment révèle la position d'un grand toit incurvé, qui s'intègre comme une aile protectrice et unifie le parti architectural. Cette toiture dessine un profil urbain attrayant et symbolique, car elle renvoie à l'image de la montagne (cœur productif de la ville) et est complétée par une façade vitrée (qui met en valeur la double hauteur de l'entrée et laisse entrevoir le projet Sum).",
       span2: "Les espaces",
@@ -47,14 +47,13 @@ const fr = {
     },
     anforas: {
       title:
-        "Usine d'huile d'olive 'Ánforas de Atenea', San Rafael, Mendoza, Argentine.",
+        "2019 - Usine d'huile d'olive 'Ánforas de Atenea', San Rafael, Mendoza, Argentine.",
       p1: "Idée et croquis pour la première phase de construction du hangar, qui abriterait l'usine, le chargement et le déchargement et le stockage des barils d'huile.",
     },
     sierras: {
       title:
-        "Conception préliminaire de locaux commerciaux à Sierras Bayas, province de Buenos Aires, Argentine.",
-      description:
-        "Idée et dessin de 3 locaux commerciaux avec leurs propres services, donnant sur la rue principale de la ville. Nous avons pris en compte l'orientation, les voisins et la meilleure distribution et dimensions pour utiliser à 100% le budget du client.",
+        "2016 - Conception préliminaire de locaux commerciaux à Sierras Bayas, province de Buenos Aires, Argentine.",
+      p1: "Idée et dessin de 3 locaux commerciaux avec leurs propres services, donnant sur la rue principale de la ville. Nous avons pris en compte l'orientation, les voisins et la meilleure distribution et dimensions pour utiliser à 100% le budget du client.",
     },
   },
 };
