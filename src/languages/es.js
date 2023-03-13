@@ -34,6 +34,9 @@ const es = {
       sierras: {
         title: "Anteproyecto locales comerciales en Sierras Bayas",
       },
+      urbano: {
+        title: "Proyecto urbano - Sector urbano La Plata cargas",
+      },
     },
   },
   projectsPage: {
@@ -54,6 +57,13 @@ const es = {
       title:
         "2016 - Anteproyecto locales comerciales en Sierras Bayas, Provincia de Buenos Aires, Argentina.",
       p1: "Idea y dibujo de 3 locales comerciales con servicios propios a cada uno, con vista a la calle principal de la ciudad. Se tuvo en cuenta la orientación, los vecinos y la mejor distribución y dimensiones para aprovechar al 100% el presupuesto con el que contaba el cliente.",
+    },
+    urbano: {
+      title: "2016 - Proyecto urbano - Sector urbano La Plata cargas",
+      title2: "Primera etapa - Proyecto grupal",
+      title3: "Segunda etapa - Proyecto individual",
+      p1: "Análisis del sitio - propuesta de integración de la barrera urbana, edificio a gran escala con programa deportivo y cultural. Las vías del tren y los espacios verdes, ordenan y dan forma al plan urbano-arquitectónico.",
+      p2: "Desarrollo del edificio: Espacios educativos, cafetería, bar, tienda, sector mantenimiento, administración, servicios. Áreas exteriores con estacionamientos, acceso para carga y descarga. Albergue universitario: habitaciones (2, 3 y 4 ambientes), áreas comunes, servicios, áreas de uso exterior",
     },
   },
 };

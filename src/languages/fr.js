@@ -34,6 +34,9 @@ const fr = {
       sierras: {
         title: "Conception préliminaire de locaux commerciaux à Sierras Bayas",
       },
+      urbano: {
+        title: "Projet urbain - Secteur urbain La Plata charges",
+      },
     },
   },
   projectsPage: {
@@ -54,6 +57,13 @@ const fr = {
       title:
         "2016 - Conception préliminaire de locaux commerciaux à Sierras Bayas, province de Buenos Aires, Argentine.",
       p1: "Idée et dessin de 3 locaux commerciaux avec leurs propres services, donnant sur la rue principale de la ville. Nous avons pris en compte l'orientation, les voisins et la meilleure distribution et dimensions pour utiliser à 100% le budget du client.",
+    },
+    urbano: {
+      title: "2016 - Projet urbain - Secteur urbain La Plata charges",
+      title2: "Première étape - Projet de groupe",
+      title3: "Deuxième étape - Projet individuel",
+      p1: "Analyse du site - proposition d'intégration de la barrière urbaine, bâtiment de grande envergure avec programme sportif et culturel. Les voies ferrées et les espaces verts ordonnent et façonnent le plan urbano-architectural.",
+      p1: "Aménagement du bâtiment : Espaces éducatifs, cafétéria, bar, magasin, secteur d'entretien, administration, services. Espaces extérieurs avec parking, accès pour chargement et déchargement. Foyer universitaire : chambres (2, 3 et 4 chambres), espaces communs, services, espaces extérieurs.",
     },
   },
 };

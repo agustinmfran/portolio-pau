@@ -34,6 +34,9 @@ const en = {
       sierras: {
         title: "Preliminary design of commercial premises in Sierras Bayas",
       },
+      urbano: {
+        title: "Urban sector La Plata loads",
+      },
     },
   },
   projectsPage: {
@@ -54,6 +57,13 @@ const en = {
       title:
         "2016 - Preliminary design of commercial premises in Sierras Bayas, Province of Buenos Aires, Argentina.",
       p1: "Idea and drawing of 3 commercial premises with their own services, overlooking the main street of the city. We took into account the orientation, the neighbors and the best distribution and dimensions to take 100% advantage of the client's budget.",
+    },
+    urbano: {
+      title: "2016 - Urban project - Urban sector La Plata loads",
+      title2: "First stage - Group project",
+      title3: "Second stage - Individual project",
+      p1: "Site analysis - urban barrier integration proposal, large scale building with sports and cultural program. The train tracks and green spaces, order and shape the urban-architectural plan.",
+      p2: "Building development: Educational spaces, cafeteria, bar, store, maintenance sector, administration, services. Outdoor areas with parking lots, access for loading and unloading. University hostel: rooms (2, 3 and 4 rooms), common areas, services, outdoor areas.",
     },
   },
 };
