@@ -80,7 +80,7 @@ function Urbano() {
               <Image
                 className="border-2 border-fuchsia-700 shadow-lg rounded-lg"
                 src={image}
-                alt="urbano 1"
+                alt="urbano 2"
                 width={1000}
                 height={1000}
               />

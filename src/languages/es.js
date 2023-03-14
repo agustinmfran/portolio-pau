@@ -37,12 +37,15 @@ const es = {
       urbano: {
         title: "Proyecto urbano - Sector urbano La Plata cargas",
       },
+      master: {
+        title: "Master Plan",
+      },
     },
   },
   projectsPage: {
     concurso: {
       title:
-        "2020 - Concurso de Anteproyecto de Distrito para la Ampliación de la Delegación de Olavarría del CAPBA - Distrito 8",
+        "2020 - Concurso de Anteproyecto de Distrito para la Ampliación de la Delegación de Olavarría del CAPBA - Distrito 8.",
       span1: "Concepto",
       p1: "El edificio se presenta como una serie de volúmenes articulados, sobrios, con una mezcla de materialidad y piel de vidrio que potencia la transparencia y sintetiza claramente las funciones de la Institución y su propuesta a la comunidad local. La forma del edificio evidencia la posición de un gran techo curvo, integrando como una ala protectora y unificando la parte arquitectónica. Es un techo que dibuja un perfil urbano atractivo y simbólico, ya que se refiere a la imagen de la montaña (corazón productivo de la ciudad) y se complementa con una fachada vidriada (que potencia la doble altura en la entrada y da un vistazo a la Sum propuesta.",
       span2: "Espacios",
@@ -59,11 +62,16 @@ const es = {
       p1: "Idea y dibujo de 3 locales comerciales con servicios propios a cada uno, con vista a la calle principal de la ciudad. Se tuvo en cuenta la orientación, los vecinos y la mejor distribución y dimensiones para aprovechar al 100% el presupuesto con el que contaba el cliente.",
     },
     urbano: {
-      title: "2016 - Proyecto urbano - Sector urbano La Plata cargas",
+      title: "2016 - Proyecto urbano - Sector urbano La Plata cargas.",
       title2: "Primera etapa - Proyecto grupal",
       title3: "Segunda etapa - Proyecto individual",
       p1: "Análisis del sitio - propuesta de integración de la barrera urbana, edificio a gran escala con programa deportivo y cultural. Las vías del tren y los espacios verdes, ordenan y dan forma al plan urbano-arquitectónico.",
       p2: "Desarrollo del edificio: Espacios educativos, cafetería, bar, tienda, sector mantenimiento, administración, servicios. Áreas exteriores con estacionamientos, acceso para carga y descarga. Albergue universitario: habitaciones (2, 3 y 4 ambientes), áreas comunes, servicios, áreas de uso exterior",
+    },
+    master: {
+      title: "2015 - Proyecto urbano grupal - Master Plan Buenos Aires.",
+      p1: "Planeamiento integral del área en relación con la ciudad.",
+      p2: "Segunda etapa: Desarrollo sede oficinas ONU - Hotel - anfiteatro - integración sector público y privado.",
     },
   },
 };

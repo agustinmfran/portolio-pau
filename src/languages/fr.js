@@ -37,6 +37,9 @@ const fr = {
       urbano: {
         title: "Projet urbain - Secteur urbain La Plata charges",
       },
+      master: {
+        title: "Master Plan",
+      },
     },
   },
   projectsPage: {
@@ -64,6 +67,11 @@ const fr = {
       title3: "Deuxième étape - Projet individuel",
       p1: "Analyse du site - proposition d'intégration de la barrière urbaine, bâtiment de grande envergure avec programme sportif et culturel. Les voies ferrées et les espaces verts ordonnent et façonnent le plan urbano-architectural.",
       p1: "Aménagement du bâtiment : Espaces éducatifs, cafétéria, bar, magasin, secteur d'entretien, administration, services. Espaces extérieurs avec parking, accès pour chargement et déchargement. Foyer universitaire : chambres (2, 3 et 4 chambres), espaces communs, services, espaces extérieurs.",
+    },
+    master: {
+      title: "2015 - Projet urbain collectif - Master Plan Buenos Aires.",
+      p1: "Planification intégrale de la zone en relation avec la ville.",
+      p2: "Deuxième phase : Développement des bureaux de l'ONU - Hôtel - amphithéâtre - intégration du secteur public et privé.",
     },
   },
 };
