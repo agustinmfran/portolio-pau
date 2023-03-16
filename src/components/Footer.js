@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Link as Rslink } from "react-scroll";
 import {
   AiOutlineLinkedin,
   AiOutlineMail,
@@ -11,14 +12,24 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 ">
-          <Link
-            href="https://www.agustinmfran.com.ar"
-            target="_blank"
+          <Rslink
+            to="home"
             className="hover:underline cursor-pointer"
+            spy={true}
+            smooth={true}
+            duration={500}
           >
             © 2023 Paula Gil{" "}
-            <span className="text-xs">made by Agustín Franco</span>
-          </Link>
+          </Rslink>
+          <span className="text-xs">
+            <Link
+              href="https://www.agustinmfran.com.ar"
+              target="_blank"
+              className="hover:underline cursor-pointer"
+            >
+              made by Agustín Franco
+            </Link>
+          </span>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
