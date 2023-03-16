@@ -40,6 +40,9 @@ const fr = {
       master: {
         title: "Master Plan",
       },
+      ciudad: {
+        title: "Ville Verticale",
+      },
     },
   },
   projectsPage: {
@@ -72,6 +75,10 @@ const fr = {
       title: "2015 - Projet urbain collectif - Master Plan Buenos Aires.",
       p1: "Planification intégrale de la zone en relation avec la ville.",
       p2: "Deuxième phase : Développement des bureaux de l'ONU - Hôtel - amphithéâtre - intégration du secteur public et privé.",
+    },
+    ciudad: {
+      title: "2014 - Ville Verticale - Travail de groupe du second semestre.",
+      p1: "Programme : Centre de convention de Mar del Plata. Bureaux - Logement - Programme public WORKSHOP AGG. FAU | UNLP ARCHITECTURE IV en simultané avec CHAIRE GUADAGNA. FAUD | UNMDP CONCEPTION ARCHITECTURALE III ATELIER SCHELOTTO. FARQ | UDELAR AVANT-PROJET III ATELIER DE SOLSONA LEDESMA SALAMA. FADU | UBA",
     },
   },
 };

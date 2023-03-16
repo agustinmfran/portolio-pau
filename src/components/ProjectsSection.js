@@ -45,6 +45,11 @@ const ProjectsSection = () => {
       image: "/miniatures/mini-master.jpg",
       link: "/projects/master",
     },
+    {
+      name: lang().projects.ciudad.title,
+      image: "/miniatures/mini-ciudad.jpg",
+      link: "/projects/ciudad",
+    },
   ];
 
   return (

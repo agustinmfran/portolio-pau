@@ -40,6 +40,9 @@ const es = {
       master: {
         title: "Master Plan",
       },
+      ciudad: {
+        title: "Ciudad Vertical",
+      },
     },
   },
   projectsPage: {
@@ -72,6 +75,10 @@ const es = {
       title: "2015 - Proyecto urbano grupal - Master Plan Buenos Aires.",
       p1: "Planeamiento integral del área en relación con la ciudad.",
       p2: "Segunda etapa: Desarrollo sede oficinas ONU - Hotel - anfiteatro - integración sector público y privado.",
+    },
+    ciudad: {
+      title: "2014 - Ciudad Vertical - Trabajo grupal segundo cuatrimestre.",
+      p1: "Programa: Centro de Convenciones en Mar del Plata. Oficinas - Viviendas - Programa público TALLER AGG. FAU | UNLP ARQUITECTURA IV en simutáneo con CÁTEDRA GUADAGNA. FAUD | UNMDP DISEÑO ARQUITECTONICO III TALLER SCHELOTTO. FARQ | UDELAR ANTEPROYECTO III TALLER SOLSONA LEDESMA SALAMA. FADU | UBA",
     },
   },
 };

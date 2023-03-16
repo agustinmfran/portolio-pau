@@ -40,6 +40,9 @@ const en = {
       master: {
         title: "Master Plan",
       },
+      ciudad: {
+        title: "Vertical City",
+      },
     },
   },
   projectsPage: {
@@ -72,6 +75,10 @@ const en = {
       title: "2015 - Urban group project - Master Plan Buenos Aires.",
       p1: "Integral planning of the area in relation to the city.",
       p2: "Second stage: Development of UN offices - Hotel - amphitheater - public and private sector integration.",
+    },
+    ciudad: {
+      title: "2014 - Vertical City - Group work second semester.",
+      p1: "Program: Convention Center in Mar del Plata. Offices - Housing - Public Program. WORKSHOP AGG. FAU | UNLP ARCHITECTURE IV in simultaneous with GUADAGNA CHAIR. FAUD | UNMDP ARCHITECTURAL DESIGN III SCHELOTTO WORKSHOP. FARQ | UDELAR PRELIMINARY DESIGN III SOLSONA LEDESMA SALAMA WORKSHOP. FADU | UBA",
     },
   },
 };
