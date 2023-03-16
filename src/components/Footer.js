@@ -1,4 +1,4 @@
-import { Link } from "react-scroll/modules";
+import Link from "next/link";
 import {
   AiOutlineLinkedin,
   AiOutlineMail,
@@ -12,14 +12,12 @@ const Footer = () => {
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 ">
           <Link
-            to="home"
+            href="https://www.agustinmfran.com.ar"
+            target="_blank"
             className="hover:underline cursor-pointer"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
           >
-            © 2023 Paula Gil
+            © 2023 Paula Gil{" "}
+            <span className="text-xs">made by Agustín Franco</span>
           </Link>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
