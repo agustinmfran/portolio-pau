@@ -57,6 +57,7 @@ const ProjectsSection = () => {
     <section id="projects">
       <h1 className="text-center font-bold text-4xl">
         <Link
+          className="hover:text-fuchsia-700 hover:transition duration-300 cursor-pointer"
           href="https://issuu.com/arqpaulagil/docs/brochure.pptx"
           target="_blank"
         >
@@ -64,13 +65,6 @@ const ProjectsSection = () => {
         </Link>
         <hr className="w-6 h-1 mx-auto my-4 bg-fuchsia-700 border-0 rounded" />
       </h1>
-      <div className="flex space-y-28 w-auto h-auto">
-        <iframe
-          src="https://docs.google.com/presentation/d/e/2PACX-1vRuwUYIGKECo74SPj9XqTMVP11IFi9_pZ55OE6Po4gvEs_Y9AkMMe_a1Csd5S8_9VHM7wzX0tuHBPhv/embed?start=true&loop=true&delayms=3000&rm=minimal"
-          width={960}
-          height={569}
-        ></iframe>
-      </div>
       <div className="flex flex-col space-y-28 md:pt-12">
         {projects.map((project, index) => {
           return (
