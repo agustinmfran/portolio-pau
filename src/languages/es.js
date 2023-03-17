@@ -43,6 +43,9 @@ const es = {
       ciudad: {
         title: "Ciudad Vertical",
       },
+      colegio: {
+        title: "Colegio Profesional",
+      },
     },
   },
   projectsPage: {
@@ -79,6 +82,10 @@ const es = {
     ciudad: {
       title: "2014 - Ciudad Vertical - Trabajo grupal segundo cuatrimestre.",
       p1: "Programa: Centro de Convenciones en Mar del Plata. Oficinas - Viviendas - Programa público TALLER AGG. FAU | UNLP ARQUITECTURA IV en simutáneo con CÁTEDRA GUADAGNA. FAUD | UNMDP DISEÑO ARQUITECTONICO III TALLER SCHELOTTO. FARQ | UDELAR ANTEPROYECTO III TALLER SOLSONA LEDESMA SALAMA. FADU | UBA",
+    },
+    colegio: {
+      title: "2014 - Colegio Profesional.",
+      p1: "Trabajo corto individual - Programa de sector de actividades comunes, sector de oficinas y sector de servicios generales.",
     },
   },
 };

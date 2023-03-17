@@ -43,6 +43,9 @@ const fr = {
       ciudad: {
         title: "Ville Verticale",
       },
+      colegio: {
+        title: "Collège professionnel",
+      },
     },
   },
   projectsPage: {
@@ -79,6 +82,10 @@ const fr = {
     ciudad: {
       title: "2014 - Ville Verticale - Travail de groupe du second semestre.",
       p1: "Programme : Centre de convention de Mar del Plata. Bureaux - Logement - Programme public WORKSHOP AGG. FAU | UNLP ARCHITECTURE IV en simultané avec CHAIRE GUADAGNA. FAUD | UNMDP CONCEPTION ARCHITECTURALE III ATELIER SCHELOTTO. FARQ | UDELAR AVANT-PROJET III ATELIER DE SOLSONA LEDESMA SALAMA. FADU | UBA",
+    },
+    colegio: {
+      title: "2014 - Collège professionnel",
+      p1: "Travaux courts individuels - Programme du secteur des activités communes, du secteur des bureaux et du secteur des services généraux.",
     },
   },
 };

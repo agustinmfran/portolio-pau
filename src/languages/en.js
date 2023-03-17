@@ -43,6 +43,9 @@ const en = {
       ciudad: {
         title: "Vertical City",
       },
+      colegio: {
+        title: "Professional Association",
+      },
     },
   },
   projectsPage: {
@@ -79,6 +82,10 @@ const en = {
     ciudad: {
       title: "2014 - Vertical City - Group work second semester.",
       p1: "Program: Convention Center in Mar del Plata. Offices - Housing - Public Program. WORKSHOP AGG. FAU | UNLP ARCHITECTURE IV in simultaneous with GUADAGNA CHAIR. FAUD | UNMDP ARCHITECTURAL DESIGN III SCHELOTTO WORKSHOP. FARQ | UDELAR PRELIMINARY DESIGN III SOLSONA LEDESMA SALAMA WORKSHOP. FADU | UBA",
+    },
+    colegio: {
+      title: "2014 - Professional Association.",
+      p1: "Individual short work - Common activities sector, office sector and general services sector program.",
     },
   },
 };
