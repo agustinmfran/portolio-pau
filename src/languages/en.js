@@ -29,7 +29,7 @@ const en = {
         title: "District Preliminary Design Competition CAPBA8",
       },
       anforas: {
-        title: 'Olive oil factory "Ánforas de Atenea"',
+        title: "Olive oil factory Ánforas de Atenea",
       },
       sierras: {
         title: "Preliminary design of commercial premises in Sierras Bayas",
@@ -45,6 +45,15 @@ const en = {
       },
       colegio: {
         title: "Professional Association",
+      },
+      conjunto: {
+        title: "International networked Housing Competition",
+      },
+      mdq: {
+        title: "City architecture Housing",
+      },
+      escuela: {
+        title: "Visual Arts School",
       },
     },
   },
@@ -86,6 +95,19 @@ const en = {
     colegio: {
       title: "2014 - Professional Association.",
       p1: "Individual short work - Common activities sector, office sector and general services sector program.",
+    },
+    conjunto: {
+      title:
+        "2014 - International networked Housing Competition - HABITAÇÃO EM REDE 2014.",
+      p1: "Group Project - High Density Collective High-Rise Housing | Commerce | Services - Sao Paulo, Brazil. Number of dwellings: 60 to 100 units for 2, 3 and 4 people.",
+    },
+    mdq: {
+      title: "2013 - City architecture Housing - experimental design network.",
+      p1: "Individual project work - Housing complex. Research project on the problem of collective housing, in conjunction with the UNMdP (National University of Mar Del Plata) and the UBA (University of Buenos Aires).",
+    },
+    escuela: {
+      title: "2013 - Visual Arts School.",
+      p1: "Individual project of the third year of the School of Architecture and Urbanism.",
     },
   },
 };

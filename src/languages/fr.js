@@ -29,7 +29,7 @@ const fr = {
         title: "Concours de conception préliminaire CAPBA8",
       },
       anforas: {
-        title: "Usine d'huile d'olive 'Ánforas de Atenea'",
+        title: "Usine d'huile d'olive Ánforas de Atenea",
       },
       sierras: {
         title: "Conception préliminaire de locaux commerciaux à Sierras Bayas",
@@ -45,6 +45,15 @@ const fr = {
       },
       colegio: {
         title: "Collège professionnel",
+      },
+      conjunto: {
+        title: "Concours international D'habitat en Réseau",
+      },
+      mdq: {
+        title: "Architecture de ville",
+      },
+      escuela: {
+        title: "École des Arts Visuels",
       },
     },
   },
@@ -86,6 +95,19 @@ const fr = {
     colegio: {
       title: "2014 - Collège professionnel",
       p1: "Travaux courts individuels - Programme du secteur des activités communes, du secteur des bureaux et du secteur des services généraux.",
+    },
+    conjunto: {
+      title:
+        "2014 - Concours international D'habitat en Réseau - HABITAÇÃO EM REDE 2014.",
+      p1: "Projet collectif - Habitat collectif de grande densité | Commerce | Services - Sao Paulo, Brésil. Nombre de logements : 60 à 100 logements pour 2, 3 et 4 personnes.",
+    },
+    mdq: {
+      title: "2013 - Architecture de ville - réseau de projets expérimentaux.",
+      p1: "Travail de projet individuel - Complexes d'habitation. Projet de recherche sur la problématique de l'habitat collectif, en collaboration avec l'UNMdP (Université Nationale de Mar Del Plata) et l'UBA (Université de Buenos Aires).",
+    },
+    escuela: {
+      title: "2013 - École des Arts Visuels",
+      p1: "Projet individuel de la troisième année de la Faculté d'architecture et d'urbanisme.",
     },
   },
 };

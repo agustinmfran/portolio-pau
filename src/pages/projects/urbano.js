@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import es from "../../languages/es";
 import en from "../../languages/en";
@@ -28,15 +29,42 @@ function Urbano() {
     "/projects/urbano/primera/6.jpg",
   ];
   const images2 = [
-    "/projects/urbano/segunda/1.jpg",
-    "/projects/urbano/segunda/2.jpg",
-    "/projects/urbano/segunda/3.jpg",
-    "/projects/urbano/segunda/4.jpg",
-    "/projects/urbano/segunda/5.jpg",
-    "/projects/urbano/segunda/6.jpg",
-    "/projects/urbano/segunda/7.jpg",
-    "/projects/urbano/segunda/8.jpg",
-    "/projects/urbano/segunda/9.jpg",
+    {
+      image: "/projects/urbano/segunda/1.jpg",
+      link: "https://www.dropbox.com/s/o021nlw2k27tk7g/1%20grande.jpg?dl=0",
+    },
+    {
+      image: "/projects/urbano/segunda/2.jpg",
+      link: "https://www.dropbox.com/s/o021nlw2k27tk7g/1%20grande.jpg?dl=0",
+    },
+    {
+      image: "/projects/urbano/segunda/3.jpg",
+      link: "https://www.dropbox.com/s/3r3r3r3r3r3r3r3/3%20grande.jpg?dl=0",
+    },
+    {
+      image: "/projects/urbano/segunda/4.jpg",
+      link: "https://www.dropbox.com/s/4s4s4s4s4s4s4s4/4%20grande.jpg?dl=0",
+    },
+    {
+      image: "/projects/urbano/segunda/5.jpg",
+      link: "https://www.dropbox.com/s/5t5t5t5t5t5t5t5/5%20grande.jpg?dl=0",
+    },
+    {
+      image: "/projects/urbano/segunda/6.jpg",
+      link: "https://www.dropbox.com/s/6u6u6u6u6u6u6u6/6%20grande.jpg?dl=0",
+    },
+    {
+      image: "/projects/urbano/segunda/7.jpg",
+      link: "https://www.dropbox.com/s/7v7v7v7v7v7v7v7/7%20grande.jpg?dl=0",
+    },
+    {
+      image: "/projects/urbano/segunda/8.jpg",
+      link: "https://www.dropbox.com/s/8w8w8w8w8w8w8w8/8%20grande.jpg?dl=0",
+    },
+    {
+      image: "/projects/urbano/segunda/9.jpg",
+      link: "https://www.dropbox.com/s/9x9x9x9x9x9x9x9/9%20grande.jpg?dl=0",
+    },
   ];
   return (
     <>
@@ -77,13 +105,15 @@ function Urbano() {
           {images2.map((image, index) => (
             <div key={index}>
               <hr className="w-6 h-1 mx-auto my-4 bg-fuchsia-700 border-0 rounded" />
-              <Image
-                className="border-2 border-fuchsia-700 shadow-lg rounded-lg"
-                src={image}
-                alt="urbano 2"
-                width={1000}
-                height={1000}
-              />
+              <Link href={image.link} target="_blank">
+                <Image
+                  className="border-2 border-fuchsia-700 shadow-lg rounded-lg"
+                  src={image.image}
+                  alt="urbano 2"
+                  width={1000}
+                  height={1000}
+                />
+              </Link>
             </div>
           ))}
         </div>

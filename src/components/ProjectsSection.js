@@ -56,6 +56,21 @@ const ProjectsSection = () => {
       image: "/miniatures/mini-colegio.jpg",
       link: "/projects/colegio",
     },
+    {
+      name: lang().projects.conjunto.title,
+      image: "/miniatures/mini-conjunto.jpg",
+      link: "/projects/conjunto",
+    },
+    {
+      name: lang().projects.mdq.title,
+      image: "/miniatures/mini-mdq.jpg",
+      link: "/projects/mdq",
+    },
+    {
+      name: lang().projects.escuela.title,
+      image: "/miniatures/mini-escuela.jpg",
+      link: "/projects/escuela",
+    },
   ];
 
   return (

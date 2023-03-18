@@ -29,7 +29,7 @@ const es = {
         title: "Concurso distrital de anteproyectos CAPBA8",
       },
       anforas: {
-        title: 'Fábrica de aceite de oliva "Ánforas de Atenea"',
+        title: "Fábrica de aceite de oliva Ánforas de Atenea",
       },
       sierras: {
         title: "Anteproyecto locales comerciales en Sierras Bayas",
@@ -45,6 +45,15 @@ const es = {
       },
       colegio: {
         title: "Colegio Profesional",
+      },
+      conjunto: {
+        title: "Concurso internacional Vivienda en Red",
+      },
+      mdq: {
+        title: "Ciudad Arquitectura Vivienda",
+      },
+      escuela: {
+        title: "Escuela de Artes Visuales",
       },
     },
   },
@@ -86,6 +95,20 @@ const es = {
     colegio: {
       title: "2014 - Colegio Profesional.",
       p1: "Trabajo corto individual - Programa de sector de actividades comunes, sector de oficinas y sector de servicios generales.",
+    },
+    conjunto: {
+      title:
+        "2014 - Concurso internacional Vivienda en Red - HABITAÇÃO EM REDE 2014.",
+      p1: "Proyecto grupal - Vivienda Colectiva de Alta Densidad en altura | Comercio | Servicios - Sao Paulo, Brasil. Cant. Viviendas: 60 a 100 unidades para 2, 3 y 4 personas.",
+    },
+    mdq: {
+      title:
+        "2013 - Ciudad Arquitectura Vivienda - Red proyectual experimental.",
+      p1: "Trabajo de proyecto individual: Conjunto de viviendas. Proyecto de investigación sobre la problemática de la vivienda colectiva, en conjunto con la UNMdP (Universidad Nacional de Mar Del Plata y la UBA (Universidad de Buenos Aires)",
+    },
+    escuela: {
+      title: "2013 - Escuela de Artes Visuales.",
+      p1: "Proyecto individual del tercer año de la Facultad de Arquitectura y Urbanismo.",
     },
   },
 };
